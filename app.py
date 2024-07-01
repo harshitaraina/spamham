@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import string
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 
 # Define the text_process function
 def text_process(mess):
